@@ -1,16 +1,16 @@
-# SSR Evergreen Demo App
+# SSR Web Component | LitElement Demo App
 
 This is an experimental demonstration of how server side rendering could be done with webcomponents using lit-element and rendertron(puppeteer). This is not ideal, it's simply one method to server-side render(pre-render). It does serialize shadow dom components and sends a modifiable string to the client's browser.
 
-**[A Project Evergreen Experiment](https://github.com/ProjectEvergreen)**
 
 ## Usage
 
 ```
-git clone https://github.com/hutchgrant/ssr-evergreen-demo
-cd ssr-evergreen-demo
-yarn install
-yarn dev
+git clone https://github.com/labbkk/webcomponent-ssr.git
+cd webcomponent-ssr
+yarn install or npm install
+yarn dev or npm run dev
+optional (mac/linux sudo command required)
 ```
 
 Browse to http://localhost:3000 check your network tab for the localhost request and see the response contains all visible components pre-rendered in html.
@@ -24,7 +24,7 @@ An application is built with webpack and then served via a local web server conc
 ### Production
 
 ```
-yarn prod
+yarn prod or npm run prod
 ```
 
 Browse to http://localhost:3000 for SSR, with the local front end prod server also available at localhost:8000
