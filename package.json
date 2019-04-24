@@ -1,14 +1,14 @@
 {
-  "name": "ssr-lit-element-app",
-  "version": "0.0.1",
+  "name": "webcomponent-ssr",
+  "version": "1.0.1",
   "description": "Create an evergreen web application with no build configuration",
   "license": "MIT",
-  "author": "thiny",
+  "author": "labbkk team",
   "main": "server.js",
-  "homepage": "test.com",
+  "homepage": "webcomponent-ssr.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ProjectEvergreen/create-evergreen-app.git"
+    "url": "git+https://github.com/labbkk/webcomponent-ssr.git"
   },
   "private": true,
   "keywords": [
