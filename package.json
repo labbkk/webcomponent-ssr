@@ -1,7 +1,7 @@
 {
   "name": "webcomponent-ssr",
   "version": "1.0.1",
-  "description": "Create an evergreen web application with no build configuration",
+  "description": "Create an ssr web component no configurations",
   "license": "MIT",
   "author": "labbkk team",
   "main": "server.js",
