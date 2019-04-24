@@ -1,1 +1,8 @@
-node_modules
+*DS_Store
+*.log
+node_modules/
+public/
+reports/
+buildClient/
+buildServer/
+dist/
